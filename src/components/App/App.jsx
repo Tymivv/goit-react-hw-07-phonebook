@@ -6,13 +6,11 @@ import Filter from "../Filter/Filter";
 import { useSelector, useDispatch } from 'react-redux';
 //import { setContacts, addContacts, deleteContacts } from '../Redux/Contacts/contactsActions';
 //import * as actions from 'redux/cities/citiesActions';
-import { contactsActions} from '../Redux/Contacts';
 import {
   getContacts,
   addContact,
   deleteContact,
 } from "../Redux/Contacts/contactsOperations";
-import { toast } from 'react-toastify';
 
 
 
